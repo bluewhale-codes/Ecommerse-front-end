@@ -1,0 +1,91 @@
+.admin-SingleProduct-detail{
+    display: flex;
+    width: 80%;
+    /* background-color: red; */
+    /* background-color: red; */
+    justify-content: space-between;
+}
+.admin-SingleProduct-detail > div{
+    width: 49%;
+    /* background-color:skyblue; */
+}
+.SingleProduct-image{
+    padding: 20px;
+}
+.detail-flex-wrapper button{
+    border: none;
+    color: white;
+    margin: 10px;
+    padding: 10px 16px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgb(5, 142, 247);;
+}
+
+#admin-product-img > img{
+    width: 100%;
+}
+.detail-wrapper > div {
+  /* background-color: red; */
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid rgba(5, 142, 247, 0.215);
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.review-container img{
+    width: 40px;
+}
+.detail-wrapper > div p{
+  font-size: 14px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.detail-flex-wrapper{
+    display: flex;
+}
+.imgDetail-flex-wrapper > div{
+    display: flex;
+}
+.imgDetail-flex-wrapper > div div{
+    margin: 10px;
+}
+.imgDetail-flex-wrapper .image-Card img{
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+.detail-flex-wrapper > div{
+    margin: 5px;
+}
+.detail-flex-wrapper div>div{
+    /* background-color: blue; */
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgba(5, 142, 247, 0.239);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.detail-tag-label{
+    padding-bottom: 7px;
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+}
+.SingleProduct-Detail > div{
+    margin-bottom: 15px;
+}
+.SingleProduct-Detail{
+    padding: 20px;
+}
+.value-wrapper{
+    width: 150px;
+    font-size: 14px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.admin-product-review-container{
+    width: 60%;
+}
+.admin-product-review-container h2{
+    padding: 20px 0px;
+    color: rgb(90, 90, 96);
+}

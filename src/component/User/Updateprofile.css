@@ -1,0 +1,198 @@
+.register-container{
+    width: 100vmax;
+    height: 100vh;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:start;
+    background-color: rgb(240, 240, 240);
+    position:fixed;
+    top: 0;
+    left: 0;
+}
+
+.registerBox{
+    padding-top:70px;
+}
+
+.registerBox > h2{
+    text-align: center;
+  font-size: 30px;
+  font-weight: 500;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.registerForm {
+    
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+.registerForm input{
+    width: 400px;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-bottom: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(33, 33, 33);
+}
+#updateImage img{
+   width: 50px;
+   height: 50px;
+   object-fit: cover;
+}
+#updateImage{
+    display: flex;
+    justify-content:center;
+    text-align: center;
+}
+.registerForm > input[type="submit"]{
+    background-color: tomato;
+    border: none;
+    font-weight: 500;
+    color: white;
+    border-radius: 20px;
+}
+.registerForm > input[type="submit"]:hover{
+    background-color: rgb(232, 71, 42);
+    cursor: pointer;
+}
+/*  css for updateProfile new */
+
+.profileUpdate-container{
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    padding: 20px;
+    width: 600px;
+    margin-top: 20px !important;
+}
+
+#alert-box{
+    position:fixed;
+    z-index: 3;
+    top: 100px;
+  }
+.profileUpdate-container .form-header{
+
+    color: rgb(42, 42, 42);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.profile-updateForm {
+    padding-top: 20px;
+    width: 100%;
+    /* background-color:blue; */
+}
+.profile-updateForm .reset-passwordButt a{
+    text-decoration: none;
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+}
+.profile-updateForm > div {
+    margin-bottom: 16px;
+    width: 100%;
+}
+.profile-updateForm > div input{
+    width: 100%;
+    border-radius: 5px;
+    transition: all .1s;
+    border: 1.3px solid rgb(136, 136, 136);
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    padding: 7px 10px;
+
+}
+.profile-updateForm > div input[type=file]{
+    display: none;
+}
+.profile-updateForm > div input:focus{
+    outline: none;
+    background-color: #F7FEFF;
+    border-color: #007185;
+    box-shadow: 0 0 0 3px #C8F3FA, 0 1px 2px rgba(15,17,17,.15) inset;
+}
+.reset-passwordButt button{
+    padding: 10px 20px;
+    background-color: rgb(13, 99, 174);
+    border-radius: 5px;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    transition: all 0.3s;
+    border: none;
+}
+.reset-passwordButt button:hover{
+    padding: 10px 20px;
+    background-color: rgb(3, 73, 134);
+    cursor: pointer;
+    border-radius: 5px;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    border: none;
+}
+.reset-passwordButt{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.input-label{
+    font-size: 14.5px;
+    padding: 5px 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    color: rgb(64, 64, 64);
+}
+.req-RP{
+    color: red;
+}
+.profileUpdate-container .help-text{
+    font-size: 15px;
+    padding: 3px 0px;
+    color: rgb(131, 131, 131);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   
+}
+.profile-imagePUC{
+    /* background-color: red; */
+    padding: 20px 0px;
+    display: flex;
+    /* justify-content: center; */
+  
+}
+.profile-imagePUC img{
+   width: 60px;
+   height: 60px;
+   object-fit: cover;
+   border-radius: 50%;
+}
+#profile-stepper{
+    background-color:rgb(241, 241, 241) !important;
+    
+}
+#chooseImgLabel{
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    border-radius: 5px;
+    transition: all .1s;
+    border: 1.3px solid rgb(136, 136, 136);
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    padding: 10px 10px;
+    background-color: rgb(13, 99, 174);
+    color: white;
+}
+#chooseImgLabel:hover{
+    background-color: rgb(8, 76, 136);
+    cursor: pointer;
+}
+
+

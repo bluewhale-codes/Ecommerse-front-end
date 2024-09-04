@@ -1,0 +1,118 @@
+.coupon-container .footer{
+    display: flex;
+    justify-content: space-between;
+}
+.coupon-container {
+    width: 500px;
+    /* background-color: red; */
+}
+.coupon-container .card-footer{
+  display: flex;
+  align-items: center;
+  padding: 10px 0px;
+  justify-content: space-between;
+}
+.coupon-container .card-footer .footer-left{
+  width: 40%;
+  /* background-color: pink; */
+  padding-inline-start: 40px;
+}
+.coupon-container .card-footer .footer-left p{
+  font-size: 14px;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+  font-weight: 500;
+}
+.coupon-container .card-footer .footer-right{
+  width: 60%;
+}
+.coupon-container .card-footer .footer-right button{
+  width: 100%;
+  padding: 10px;
+  font-size: 15px;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+  font-weight: 500;
+  border: none;
+  background-color: var(--blue);
+  border-radius: 4px;
+  color: white;
+}
+.coupon-container .card-footer .footer-right button:hover{
+    cursor: pointer;
+}
+
+/* css for single card */
+.coupon-card{
+    display: flex;
+    margin: 10px 0px;
+    padding: 15px 0px;
+    /* border-top: .4px solid rgb(172, 172, 172); */
+}
+.coupon-card-wrapper{
+    /* background-color: pink; */
+    width: 100%;
+    height: 400px;
+    overflow: scroll;
+}
+.coupon-card #card-checkbox {
+    /* background-color: blue; */
+    padding: 10px 10px;
+}
+.coupon-card #card-checkbox input{
+    /* background-color: blue; */
+    width:16px;
+    height:16px;  
+}
+.coupon-card-detail span{
+   display:inline-block;
+   font-size: 15px;
+   border-radius: 5px;
+   padding: 10px 20px;
+   border: 1px dashed rgb(98, 98, 98);
+}
+.coupon-card-detail{
+   /* background-color: aquamarine; */
+   padding: 0px 10px;
+}
+.coupon-card-detail p{
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   font-size: 14px;
+   padding-top: 5px;
+   color: rgb(79, 79, 79);
+}
+.header-code-input{
+     width: 100%;
+     padding: 20px 0px;
+}
+.header-code-input > div{
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    border-radius: 5px;
+    border: 1.3px solid rgb(171, 171, 171);
+}
+#coupon-discountTag,#MRP-discountTag{
+  color: green;
+  font-size: 12px !important;
+}
+.header-code-input input{
+  width: 100%;
+  font-size: 16px;
+  color: rgb(93, 93, 93);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: transparent;
+  border: none;
+}
+.header-code-input p{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #ee6c4d;
+  cursor: pointer;
+}
+.header-code-input span{
+  font-size: 15px;
+  font-weight: 500;
+  display: inline-block;
+  padding-top: 5px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}

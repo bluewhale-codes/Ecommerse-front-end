@@ -1,0 +1,187 @@
+
+.login-container{
+   background-image: url(https://c0.wallpaperflare.com/preview/280/991/637/marketing-desk-graphic-designer-ideas.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   font-family: 'Open Sans', sans-serif;
+   width: 100vw;
+   height: 100vh;
+   max-width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   z-index: 2;
+   background-color:rgb(234, 234, 234);
+   position:fixed;
+   top: 0;
+   left: 0;
+   transition: all 0.3s;
+}
+
+.loginsignupBox{
+   border-radius:10px;
+   background-color: rgb(255, 255, 255);
+   width: 25vw;
+   height: 70vh;
+   box-sizing: border-box;
+   overflow: hidden;
+}
+.loginSignUp-toggle{
+   display: flex;
+   height: 3vmax;
+}
+.loginSignUp-toggle > p{
+   color: rgb(45, 45, 45);
+   font-size: 17px;
+   font-weight: 500;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   transition: all 0.5s;
+   cursor: pointer;
+   display: grid;
+   place-items: center;
+   width: 100%;
+}
+
+.loginSignUp-toggle > p:hover{
+   color: tomato;
+}
+.loginsignupBox > div > button{
+   background-color:#05467b;
+   height: 3px;
+   width: 50%;
+   border: none;
+   transition: all 0.5s;
+}
+.loninForm,.signUpForm{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin: auto;
+   padding: 2vmax;
+   justify-content: space-evenly;
+   height: 70%;
+   transition: all 0.5s;
+}
+.loninForm > div,.signUpForm > div{
+   display: flex;
+   width: 100%;
+   align-items: center;
+}
+.loninForm h3{
+   width: 80%;
+   color: rgb(53, 53, 53);
+   font-family: 'Open Sans', sans-serif;
+   font-weight:500;
+   font-size: 21px;
+   text-align: center;
+  
+}
+.signUpForm{
+   transform: translateY(-100%) translateX(-100vmax);
+}
+#registerImage > img{
+   width: 3vmax;
+   border-radius: 100%;
+}
+#registerImage > input{
+  display: flex;
+  padding: 0%;
+}
+#registerImage > input::file-selector-button{
+   cursor: pointer;
+   width: 100%;
+   height:5vh;
+   margin: 0;
+   z-index: 2;
+   font: 400 0.8vmax;
+   transition: all 0.5s;
+   padding: 0 1vmax;
+   color: white;
+   background-color: rgb(24, 24, 24);
+}
+#registerImage > input::file-selector-button:hover{
+   background-color: rgb(0, 0, 0);
+}
+.register-error{
+   display: flex;
+   justify-content:space-between;
+   
+   align-items: center;
+   position:fixed;
+   top: 0;
+   width:480px;
+   transition: all 0.3s;
+   padding: 20px;
+   background-color: rgb(208, 223, 249);
+   border-radius: 5px;
+}
+
+.loninForm > div > input,.signUpForm > div  > input {
+   
+   width: 100%;
+   box-sizing: border-box;
+   border: 1px solid rgb(215, 212, 212);
+   border-radius: 5px;
+   padding: 10px 15px;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   font-size: 15px;
+   font-weight: 500;
+   outline: none;
+}
+.loninForm > div > input:focus,.signUpForm > div  > input:focus {
+   background-color: #F7FEFF;
+   border-color: #007185;
+   box-shadow: 0 0 0 3px #C8F3FA, 0 1px 2px rgba(15,17,17,.15) inset;
+   outline: none;
+}
+.loninForm  > a{
+ color: rgb(40, 40, 40);
+ text-decoration: none;
+ align-self: flex-end;
+ transition: all 0.5s;
+ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ font-size: 15px;
+ font-weight: 500;
+}
+.loninForm >a:hover{
+  color: black;
+}
+.loginBtn,.signUpBtn{
+   border: none;
+   /* background-color: tomato; */
+   background-color:#05467b;
+   color: white;
+   width: 50%;
+   padding: 0.8vmax;
+   cursor: pointer;
+   transition: all 0.5s;
+   border-radius: 20px;
+   font-size: 15px;
+   font-weight: 500;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   outline:none;
+   box-shadow: 0px 2px 5px rgba(0,0,0,0.219);
+}
+.loginBtn:hover,.signUpBtn:hover{
+   background-color:#072137;
+   
+}
+
+
+
+
+
+.shiftToNeutral{
+   transform: translateX(0%);
+}
+.shiftToRight{
+   transform: translateX(100%);
+   
+}
+.shiftToNeutralForm{
+   transform: translateX(0%) translateY(-100%);
+}
+.shiftToLeft{
+   transform: translateX(-100%);
+  
+}

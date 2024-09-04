@@ -1,0 +1,17 @@
+.loading p{
+    font-style: italic;
+  }
+  .loader{
+    position:absolute;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    place-items: center;
+    max-width: 100%;
+  }
+  
+  .loading svg path,
+  svg rect{
+    fill: #0a7fed;
+  }

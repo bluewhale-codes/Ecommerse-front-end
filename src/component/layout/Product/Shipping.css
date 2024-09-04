@@ -1,0 +1,161 @@
+.shippingContainer{
+    width: 100vw;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    
+}
+.shippingBox{
+    background-color: white;
+    width: 25vw;
+    height: 90vh;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.shippingHeading{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 25px;
+    color: tomato;
+}
+.shippingBtn{
+    background-color: tomato;
+    border-radius: 20px;
+    color: white;
+    outline: none;
+    border: none;
+}
+
+
+.shippingBtn:hover{
+    background-color: rgb(216, 48, 18);
+    cursor: pointer;
+}
+.shippingContainer input, .shippingContainer select {
+    width: 100%;
+    font-size: 15px;
+    padding: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    margin-bottom: 20px;
+    outline: none;
+}
+/* .MuiStepConnector-active,
+.MuiStep-completed{
+    background-color: rgb(255, 255, 255));
+}
+.MuiStep-root{
+    height: 1px;
+    background-color: rgb(22, 22, 22);
+} */
+
+/* css for confirm order */
+.confirmOrderPage{
+    height: 100vh;
+   
+    display: grid;
+    grid-template-columns: 6fr 3fr;
+}
+.confirmOrderPage > div:last-child{
+    border-left: 1px solid black;
+}
+.confirmshippingArea{
+    padding: 5vmax;
+    padding-bottom:0%;
+}
+.confirmshippingArea > p{
+    font:400 1.8vmax "Roboto";
+}
+.confirmshippingAreaBox,
+.confirmCartItemsContainer{
+    margin: 2vmax;
+}
+.confirmshippingAreaBox > div{
+    display: flex;
+    margin: 1vmax 0;
+}
+.confirmshippingAreaBox > div > p{
+    font:400 1vmax "Roboto";
+    color: rgb(15, 16, 16);
+}
+.confirmshippingAreaBox > div > span{
+    margin: 0 1vmax;
+    font:100 1vmax "Roboto";
+    color: gray;
+
+}
+.confirmCartItems > p{
+    font:400 1.8vmax "Roboto";
+
+}
+.confirmCartItems {
+    padding: 5vmax;
+    padding-top: 2vmax;
+}
+.confirmCartItemsContainer{
+  max-height: 20vmax;
+  overflow-y: auto;
+}
+.confirmCartItemsContainer > div{
+    font:400 1vmax "Roboto";
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2vmax 0;
+    align-items: center;
+
+}
+.confirmCartItemsContainer > div > img{
+    width: 3vmax;
+}
+.confirmCartItemsContainer > div > a{
+    width: 60%;
+    text-decoration: none;
+}
+.confirmCartItemsContainer > div > span{
+    font:100 1vmax "Roboto";
+    color: red;
+}
+.orderSummary{
+    padding: 7vmax;
+}
+.orderSummary > p{
+    text-align: center;
+    border-bottom: 1px solid black;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 1vmax;
+    margin: auto;
+}
+.orderSummary  > div > div{
+  display: flex;
+  font:300 1vmax "Roboto";
+
+  justify-content: space-between;
+  margin: 2vmax 0;
+}
+.orderSummaryTotal{
+    display: flex;
+    font:300 1vmax "Roboto";
+    
+    justify-content: space-between;
+    border-top: 1px solid black;
+    padding: 2vmax 0;
+}
+.orderSummary > button{
+    padding: 1vmax;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: tomato;
+    font-size: 15px;
+    font-weight: 500;
+    width: 100%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.orderSummary > button:hover{
+    background-color: rgb(194, 49, 24);
+    cursor: pointer;
+
+}

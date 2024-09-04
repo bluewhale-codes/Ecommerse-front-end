@@ -1,0 +1,211 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.newProductContainer{
+   
+    /* justify-content: center;
+    align-items: center; */
+    width: 100%;
+    background-color: rgb(240, 240, 245);
+}
+.createProductForm{
+    border: 1px solid rgb(185, 185, 185);
+    padding: 30px;
+    background-color: white;
+    width: 500px;
+}
+#createProductformImage{
+    border: none !important;
+    display: flex;
+    align-items: start !important;
+    justify-content: start !important;
+    flex-wrap: wrap;
+}
+.createProductForm h1{
+    text-align: center;
+    color: rgb(50, 50, 50);
+    margin-bottom: 20px;
+}
+#createProductformImage img{
+    width: 70px;
+    height: 50px;
+    object-fit: cover;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border-radius:2px;
+
+   
+}
+.createProductForm > div{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-left: 15px;
+    border: 1px solid rgb(113, 113, 113);
+    border-radius: 5px;
+}
+.createProductForm input , .createProductForm textarea ,.createProductForm select{
+    width: 400px;
+    padding: 16px 10px;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    outline: 0;
+    border: none;
+}
+#createProductBtn{
+   background-color: tomato;
+   color: white !important;
+   width: 100px;
+   font-size: 15px;
+   font-weight:500;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   padding: 10px 10px;
+   border-radius: 10px;
+   width: 430px;
+}
+#createProductBtn:hover{
+    background-color: rgb(220, 49, 18);
+}
+
+
+.creatBrandform img{
+  width: 50px;
+  height: 50px;
+}
+
+/*  new:---  */
+
+.newProductContainer .container-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+}
+.newProductContainer .container-header > div:first-child{
+   display: flex;
+   align-items: center;
+}
+.newProductContainer .container-header > div:first-child h1{
+   padding-inline-start: 20px;
+}
+.newProductContainer .container-header > div:first-child span{
+   display: inline-block;
+   padding: 7px 10px;
+   border: 1px solid black;
+  border-radius: 5px;
+}
+.Form-left-container{
+    width: 48%;
+    /* margin: 10px; */
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+}
+.Form-right-container{
+    /* margin: 10px; */
+   padding: 20px;
+   border-radius: 5px;
+   background-color: rgb(255, 255, 255);
+   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+   width: 48%;
+}
+.new-product-form{
+    width: 100%;
+    display: flex;
+   /* background-color: green; */
+   padding: 30px;
+   justify-content:space-between;
+}
+.form-input-container{
+  margin-bottom: 15px;
+  
+}
+.form-input-container p{
+    font-size: 16px;
+    color:rgb(5, 142, 247);
+    padding-bottom: 8px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+}
+.form-input-container > div{
+   border: 1px solid rgb(164, 164, 164);
+   padding: 20px;
+   border-radius: 10px;
+}
+.image-input-container{
+    display: flex;
+    /* background-color: green; */
+    padding: 20px;
+    justify-content: space-between;
+}
+.image-input-container > div{
+    width: 32%;
+   
+    height: 150px;
+}
+.image-input-container > div:nth-child(2){
+    border: 2px dashed grey;
+}
+.image-input-container > div img{
+   width: 100%;
+   height: 100%;
+   object-fit:cover;
+}
+.form-input-container .input-wrapper{
+    display: flex;
+    flex-direction: column;
+}
+.form-input-container .input-wrapper input,.form-input-container .input-wrapper textarea,.form-input-container .input-wrapper select{
+    width: 100%;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all .1s;
+    border: 1.3px solid rgb(136, 136, 136);
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    padding: 7px 10px;
+}
+.form-input-container .input-wrapper{
+    margin-bottom: 15px;
+}
+.form-input-container .input-wrapper input:focus , .form-input-container .input-wrapper textarea:focus{
+    outline: none;
+    background-color: #F7FEFF;
+    border-color: #007185;
+    box-shadow: 0 0 0 3px #C8F3FA, 0 1px 2px rgba(15,17,17,.15) inset;
+}
+.form-input-container .input-wrapper label{
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    color: rgb(61, 60, 60);
+    padding-bottom: 8px;
+}
+.image-input-container .input-wrapper input{
+    display: none;
+}
+.image-input-container .input-wrapper label{
+    width: 100%;
+    height: 100%;
+}
+.Form-right-container .form-button button{
+    border: none;
+    font-size: 15px;
+    padding: 15px 13px;
+    background-color:rgb(5, 142, 247);
+    color: white;
+    border-radius: 5px;
+}
+.Form-right-container .form-button button:hover{
+  cursor: pointer;
+    background-color:rgb(0, 114, 200);
+   
+}

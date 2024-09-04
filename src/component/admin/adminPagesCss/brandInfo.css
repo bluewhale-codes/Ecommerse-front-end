@@ -1,0 +1,167 @@
+:root {
+    --font:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
+    --font-weight:500;
+    --small:15px;
+    --micro:14px;
+    --medium:20px;
+    --large:30px;
+  }
+  
+.brand-detail-container{
+    /* background-color: rgb(247, 247, 247); */
+    height: auto;
+}
+.brand-collection-containerFlex1{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+    
+
+.seller-info-details,.seller-product-review{
+    width: 30%;
+    padding: 30px;
+    margin-bottom: 20px;
+    border: 1px solid rgb(238, 238, 238);
+    box-shadow: rgba(100, 100, 111, 0.065) 0px 7px 29px 0px;
+    border-radius: 5px;
+}
+.seller-detailCharts,.seller-products-list{
+    width: 68%;
+    padding: 30px;
+    margin-bottom: 20px;
+    border: 1px solid rgb(238, 238, 238);
+    box-shadow: rgba(100, 100, 111, 0.065) 0px 7px 29px 0px;
+    border-radius: 5px;
+
+}
+.seller-info-details .seller-logo {
+    display: flex;
+    justify-content: center;
+    /* background-color: rgb(229, 222, 22); */
+}
+.seller-info-details .seller-brandName {
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    text-align: center;
+}
+.seller-info-details .seller-logo img{
+    width: 100px;
+    height: 100px;
+}
+.seller-info-details .seller-details{
+  /* background-color: orange; */
+  padding: 20px 30px;
+  
+}
+.seller-info-details .seller-details p{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    padding: 14px 0px;
+}
+.seller-detailCharts .header{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    padding: 10px 0px;
+    font-weight: 500;
+    justify-content: space-between;
+    display: flex;
+    color: #495057;
+    width: 100%;
+    /* background-color: rgba(234, 236, 237, 0.71); */
+}
+.seller-detailCharts .sort-icons span{
+    display: inline-block;
+    font-size: 13px;
+    margin-right: 5px;
+    padding: 7px;
+    border-radius: 5px;
+    transition: all 0.3s;
+    background-color: rgba(38, 133, 242, 0.159);
+}
+.seller-detailCharts .sort-icons span:hover{
+    cursor: pointer;
+    background-color: rgba(38, 133, 242, 0.998);
+}
+.seller-detailCharts .revenue-chart{
+    padding: 20px;
+    width:100%;
+}
+.seller-product-review .header{
+    font-size: 20px;
+    font-weight: 500;
+    color: #495057;
+    padding: 10px 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.seller-product-review .Seller-rating{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    background-color: rgb(237, 237, 237);
+    padding: 10px;
+}
+.seller-product-review .Seller-rating > div p{
+    font-size: 15px;
+    font-weight: 500;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.Seller-reviews-numbers{
+    padding: 20px 0px;
+   
+}
+.Seller-reviews-numbers .star-rating{
+    padding: 7px 0px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+.Seller-reviews-numbers .star-rating > div{
+    padding: 0px 10px;
+    width:80%;
+}
+.Seller-reviews-numbers .star-rating > span{
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.reviews-brandDetail-page .review-card-BrandInfo{
+    border-radius: 10px;
+    margin-bottom: 10px;
+    border: 1px dashed rgb(214, 214, 214);
+    padding: 20px;
+}
+
+.reviews-brandDetail-page .review-card-BrandInfo > .card-content{
+    display: flex;
+}
+.reviews-brandDetail-page .review-card-BrandInfo .card-content .card-image img{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+.reviews-brandDetail-page .review-card-BrandInfo .card-footer{
+   font-family: var(--font);
+   font-size: var(--micro);
+   font-weight: var(--font-weight);
+   text-align:end;
+   color: rgb(94, 97, 99);
+}
+
+.reviews-brandDetail-page .review-card-BrandInfo .card-content{
+   font-family: var(--font);
+   font-size: var(--micro);
+   font-weight: var(--font-weight);
+   color: rgb(94, 97, 99);
+}
+

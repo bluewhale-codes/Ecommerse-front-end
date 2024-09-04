@@ -1,0 +1,36 @@
+.order-details .order-owner{
+    display:flex
+}
+.order-details .order-owner img{
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 100%;
+}
+
+/* order status stepper */
+
+.orderStatus-stepper{
+    width: 50%;
+}
+.orderStatus-container .status-header{
+    padding: 15px 20px;
+    background-color: rgb(237, 241, 244);
+    
+}
+.status-stepper{
+    padding: 20px;
+}
+.orderStatus-container{
+    width: 100%;
+    margin-bottom: 20px !important;
+    margin: auto;
+    border: 1px solid rgb(235, 235, 235);
+    box-shadow: rgba(100, 100, 111, 0.065) 0px 7px 29px 0px;
+    border-radius: 5px;
+}
+.orderStatus-container .status-header p{
+    font-size:15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+}

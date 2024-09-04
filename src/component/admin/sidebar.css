@@ -1,0 +1,354 @@
+.sidebar{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(255, 255, 255);
+}
+.sidebar > div{
+    margin-bottom: 20px;
+}
+.sidebar > a:first-child{
+    display: flex;
+    padding: 0;
+}
+.sidebar .website-logo >  img{
+   width: 180px;
+}
+
+.sidebar .website-logo{
+    display: flex;
+    /* background-color: pink; */
+
+    justify-content: start;
+}
+.sidebar > a img{
+   border-radius: 100%;
+   width:50px;
+   height:50px;
+   transform: translateX(40px);
+   transition: all 0.5s;
+}
+.sidebar > a img :hover{
+  color: blue;
+}
+.sidebar  a{
+    text-decoration:none;
+    color: black;
+    padding: 1.1rem;
+    font: 200 1rem "Roboto";
+    /* transition: all 0.5s; */
+}
+.sidebar a:hover{
+    color: tomato;
+    /* transform: scale(1.1); */
+}
+.sidebar a > p{
+    display: flex;
+    align-items: center;
+}
+.sidebar a > p > svg{
+    margin-right: 0.5rem;
+}
+
+.dashboard{
+  width: 100%;
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  position: absolute;
+  height:100vh
+}
+.dashboardContainer{
+    border-left: 1px solid rgb(159, 159, 159);
+    background-color: white;
+    padding: 3rem 0;
+}
+.dashboardContainer h1{
+    color: black;
+    margin: auto;
+    text-align: center;
+    font: 300 2rem "Roboto";
+    padding: 1.5rem;
+    width: 50%;
+}
+.dashboard-summery{
+    margin: 2rem 0;
+}
+.dashboard-summery > div{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+}
+.dashboard-summery > div > p{
+    background-color: royalblue;
+    text-align: center;
+    padding: 1.5rem;
+    font: 300 1.3rem 'Roboto';
+    color: white;
+    width: 100%;
+    margin: 0 2rem;
+}
+.dashboardSummeryBox2 > a{
+    color: rgb(50, 50, 50);
+    font: 300 2rem 'Roboto';
+   text-align: center;
+   background-color: rgb(4, 202, 83);
+   text-decoration: none;
+   margin: 2rem;
+   border-radius: 100%;
+   width: 10vmax;
+   height: 10vmax;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 1.5rem;
+   flex-direction: column;
+}
+.lineChart{
+    width: 50%;
+    margin: auto;
+}
+.doughtnutChart{
+    width: 20%;
+    margin: auto;
+}
+.productListContainer{
+    width: 100%;
+    padding: 60px;
+    box-sizing: border-box;
+    background-color: white;
+    border-left: 1px solid rgb(184, 184, 184);
+    display: flex;
+    flex-direction: column;
+    height:100vh;
+    z-index:2
+}
+#productListHeading{
+    text-align: center;
+    padding: 20px 0px;
+    color: rgb(38, 38, 38);
+}
+.productListTable{
+    margin-top: 30px;
+    background-color: rgb(255, 255, 255);
+    /* border: none !important; */
+}
+.productListTable #productStatusGreen{
+  display: inline-block;
+  text-transform: capitalize;
+  font-weight: 500;
+  padding: 5px 10px;
+  border-radius: 10px;
+  color: green;
+  background-color: rgba(64, 239, 78, 0.264);
+}
+.productListTable #productStatusRed{
+  display: inline-block;
+  font-weight: 500;
+  text-transform: capitalize;
+  padding:5px 10px;
+  border-radius: 10px;
+  color: red;
+  background-color: rgba(239, 113, 113, 0.248);
+}
+.productListTable img{
+    width: 30px;
+    object-fit: contain;
+    border-radius: 100%;
+    height: 30px;
+}
+.productListTable a {
+    color: rgb(89, 89, 89);
+    transition: all 0.2s;
+}
+
+.productListTable a:hover {
+    color: tomato;
+}
+.productListTable button:hover{
+    color: rgb(145, 2, 2);
+}
+
+
+
+/*  Testing */
+
+.sidebar .admin-profile-img{
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+}
+.sidebar .admin-profile-img > div:first-child img{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 100%;
+}
+.sidebar .admin-profile-img > div:last-child > p{
+    padding-inline-start: 20px;
+    color: rgb(91, 91, 91);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.sidebar .admin-profile-img > div:last-child > p:first-child{
+   font-weight: 800;
+   font-size: 16px;
+}
+.sidebar .manage-site-link{
+    justify-content: space-between;
+   display: flex;
+   transition: all 0.1s;
+   padding: 10px;
+   border-radius: 10px;
+}
+.sidebar .manage-site-link:hover{
+    /* background-color: rgba(24, 123, 237, 0.102); */
+    color: white;
+    background-color: rgb(5, 142, 247);
+    cursor: pointer;
+}
+.manage-site-link-active{
+    color: white;
+    background-color: rgb(5, 142, 247);
+}
+
+.sidebar .manage-site-link > div:first-child{
+    display: flex;
+    align-items: center;
+}
+.sidebar .manage-site-link > div:first-child p{
+    font-size: 15px;
+    font-weight: 500;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-inline-start: 10px;
+}
+.manage-site-link-container > div{
+   margin-bottom: 15px;
+}
+.manage-site-link-container > p {
+    font-size: 14px;
+    padding: 20px 0px;
+    text-transform:uppercase;
+    font-weight: 500;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* product list css */
+
+.Product-list-header{
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Product-list-header >div:last-child button{
+    border: none;
+    border-radius: 5px;
+   color: rgb(255, 255, 255);
+   background-color: rgb(5, 142, 247);;
+   font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 13px;
+}
+.Product-list-header >div:last-child{
+  width: 10%;
+  display: flex;
+  justify-content: end;
+}
+.Product-list-header >div:last-child  a{
+  text-decoration: none;
+  color: white;
+}
+.Product-list-header >div:last-child button:hover{
+   background-color: rgb(5, 125, 217);
+   cursor: pointer;
+}
+.Product-list-header >div:first-child h3{
+    font-size: 25px;
+    color: #3c3d3d;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.Product-list-header >div:first-child {
+   width: 90%;
+}
+.Product-list-header .productList-nav-link{
+    padding: 20px 0px;
+    list-style-type: none;
+    display: flex;
+    /* background-color: green; */
+    align-items: center;
+    padding-inline-start: 0px !important;
+}
+
+
+
+.productList-nav-link a{
+    text-decoration: none;
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    color: #70767a;
+}
+.productList-nav-link span{
+   /* background-color: red; */
+   display: inline-block;
+   padding: 0px 10px;
+   display: flex;
+   color: #70767a;
+   align-items: center;
+   justify-content: center;
+}
+
+.search {
+    margin: 20px 0px;
+    width: 100%;
+    display: flex;
+  }
+.searchTerm {
+    width: 50%;
+    font-size: 15px;
+    font-weight: 500;
+    border: 2px solid rgb(5, 142, 247);
+    border-right: none;
+    padding: 20px;
+    height: 20px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #1e1e1e;
+}
+
+
+  .searchButton {
+    border: 1px solid rgb(5, 142, 247);
+    background-color: rgb(5, 142, 247);
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 15px;
+  }
+
+  .gallaryProducts{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+/* Admin ordres css */
+.adminOrder-detail-container{
+    display: flex;
+}
+.order-customer-card{
+    width: 25%;
+    /* background-color: red; */
+}
+.admin-order-detail{
+    width: 75%;
+    /* background-color:green; */
+}
+

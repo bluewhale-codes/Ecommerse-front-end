@@ -1,0 +1,211 @@
+.admin-mySingle-order{
+    width: 100%;
+    margin-bottom: 20px !important;
+    margin: auto;
+    border: 1px solid rgb(235, 235, 235);
+    box-shadow: rgba(100, 100, 111, 0.065) 0px 7px 29px 0px;
+    border-radius: 5px;
+}
+.admin-mySingle-order :hover{
+   cursor: pointer;
+}
+
+
+.product-detail .product-img img{
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+}
+/* .adminorderTable tr:nth-child(even){background-color: #f2f2f2;} */
+
+.adminorderTable{
+    width:100%;
+    margin:auto !important;
+    border-collapse: collapse;
+    
+}
+.adminorderTable .product-detailHeader{
+    width: 50%;
+    /* background-color: pink; */
+}
+.adminorderTable .product-detail > div{
+    display: flex;
+    align-items: center;
+   /* justify-content: center; */
+   /* background-color: pink; */
+}
+.adminorderTable .product-detail > div p{
+    font-weight: 500;
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.adminorderTable th{
+    text-align: start;
+    color: rgb(113, 117, 121);;
+    padding: 15px 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+td{
+    padding: 5px 15px;
+}
+.admin-mySingle-order .order-admin-table-header{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: red; */
+    margin: 15px;
+    padding-bottom:15px;
+    border-bottom: 1px solid rgb(221, 221, 221);
+    
+}
+.order-admin-table-header h3{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(37, 37, 37);
+}
+.order-admin-table-header h3 >span{
+    color: rgb(13, 82, 156);
+}
+.order-admin-table-header p{
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+    color: rgb(162, 162, 162);
+    padding: 10px 0px;
+}
+.adminorderTable .table-header{
+   background-color: rgb(237, 241, 244);
+   
+}
+.admin-Singleorder-details{
+    display: flex;
+}
+.left-container{
+   width: 65%;
+}
+.right-container{
+   width: 30%;
+}
+.order-admin-table-footer{
+    width: 100%;
+    /* background-color: red; */
+    border-top: 1px dashed rgb(211, 220, 227);
+
+    display: flex;
+    justify-content: end;
+}
+.order-admin-table-footer .footer-contaner{
+    width: 35%;
+    /* background-color: green; */
+    padding: 10px;
+}
+.order-admin-table-footer .footer-contaner >div{
+   display: flex;
+   justify-content: space-between;
+   padding: 10px 0px;
+}
+.order-admin-table-footer .footer-contaner >div p{
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   font-size: 14px;
+   color:rgb(113, 117, 121);
+}
+.order-admin-table-footer .footer-contaner .total-container{
+   border-top: 1px dashed rgb(211, 220, 227);
+}
+.right-container .card-wrapper{
+    width: 100%;
+    /* background-color: red; */
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+.right-container .card-wrapper .card{
+    width: 90%;
+    border: 1px solid rgb(238, 238, 238);
+   
+    box-shadow: rgba(100, 100, 111, 0.065) 0px 7px 29px 0px;
+    border-radius: 5px;
+    /* background-color: rgb(194, 245, 39); */
+    
+}
+.right-container .card-wrapper .card .card-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    border-bottom: 1px solid rgb(237, 237, 237);
+}
+.right-container .card-wrapper .card .card-header p{
+    font-size: 18px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    color:#495057;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.right-container .card-wrapper .card .card-header p span{
+    padding-inline-start: 10px;
+}
+.right-container .card-wrapper .card .card-content .profile-section{
+    display: flex;
+    align-content: center;
+   
+}
+.right-container .card-wrapper .card .card-content {
+    /* background-color: rgb(74, 18, 170); */
+    padding: 10px 20px;
+}
+.contact-detail span{
+    font-size: 14px;
+    display: inline-block;
+    padding-inline-start: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* font-weight: 500; */
+    color: rgb(166, 166, 166);
+}
+.contact-detail > div{
+  display: flex;
+  align-items: center;
+   margin: 10px 0px;
+}
+.right-container .card-wrapper .card .card-content .profile-section .profile-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-inline-start: 15px;
+}
+.profile-section .profile-name p:first-child{
+    font-size: 15px;
+    font-weight: 500;
+}
+.profile-section .profile-name p:last-child{
+    font-size: 14px;
+    font-weight: 500;
+    color:rgb(113, 117, 121);
+}
+.right-container .card-wrapper .card .card-content .profile-section img{
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+}
+.card-content .house-address{
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+}
+.card-content .detail-addres > p{
+    font-size: 13px;
+    color: rgb(113, 117, 121);
+    padding-bottom: 5px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.card-content .payment-details p{
+    font-size: 13px;
+    color: rgb(113, 117, 121);
+    padding-bottom: 8px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+.house-address , .detail-addres{
+    padding-bottom: 10px;
+}

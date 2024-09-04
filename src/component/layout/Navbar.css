@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    position:relative;
+  }
+  .navbar {
+    position:sticky;
+    width: 100vmax;
+    top: 0;
+    z-index: 2;
+    background-color: #ffffff;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+  }
+  .alert-box{
+    width: 400px;
+    scale: 0;
+    padding: 50px 20px;
+    display:flex;
+    justify-content: start;
+    top: 0;
+    position:fixed;
+    z-index: 1000;
+    transition: all 0.2s;
+  }
+  .alert-active{
+      scale: 1.03;
+  }
+  
+  .mainLogo{
+    width: 100px;
+    height: 100px;
+    
+  }
+  .mainLogo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .searchBar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .searchBar > svg{
+    margin-left: 20px;
+    cursor: pointer;
+    color: rgb(73, 73, 73);
+  }
+  
+  .searchBar button{
+    padding: 10px 15px;
+    background-color: rgb(6, 80, 190);
+    border-radius: 5px;
+    color: white;
+    border:none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    transition: all 0.3s;
+  }
+  .searchBar button:hover{
+
+    background-color: rgb(67, 138, 244);
+    color: black;
+    cursor: pointer;
+  }
+ 
+  .navbar a {
+    float: left;
+    display: block;
+    color: rgb(31, 31, 31);
+    text-align: center;
+    padding: 17px 19px;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+  }
+  .navbar input[type="text"] {
+    /* float: right; */
+    margin: 10px 20px;
+    padding: 10px 20px;
+    border: none;
+    border: 1px solid rgb(211, 211, 211);
+    border-radius: 50px;
+  }
+
+  

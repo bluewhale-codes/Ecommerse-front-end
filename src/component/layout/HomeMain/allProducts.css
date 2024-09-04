@@ -1,0 +1,242 @@
+.paginationBox{
+    display: flex;
+    justify-content: center;
+    margin: 6vmax;
+}
+.pagination{
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+.page-item{
+    background-color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ 
+    list-style: none;
+    padding: 12px;
+    margin: 10px;
+    border-radius: 5px;
+    transition: all 0.3s;
+    /* border: 1px solid rgb(109, 109, 109); */
+    cursor: pointer;
+}
+.page-item:first-child {
+    border-radius: 5px 0 0 5px;
+    border: 1.3px solid rgb(175, 175, 175);
+    color: rgb(16, 16, 16);
+}
+.page-item:last-child{
+    border-radius: 0 5px 5px 0;
+    border: 1.3px solid rgb(175, 175, 175);
+    color: rgb(16, 16, 16);
+    
+
+}
+.page-link{
+    text-decoration: none;
+    font: 300 0.8vmax 'Roboto';
+    color: rgb(85, 85, 85);
+    transition: all 0.3s;
+}
+.page-item:hover{
+    background-color: rgb(223, 221, 221);
+}
+.pageItemActive{
+    background-color: rgb(22, 22, 22);
+}
+
+.pageLinkActive{
+    color: white;
+}
+.filterBox{
+    position:absolute;
+    top: 10vmax;
+    left:4vmax;
+}
+
+/*  new css */
+
+
+.all-productCatagory-wrapper{
+    width: 100vw;
+    height: 700px;
+    /* background-color: pink; */
+    margin: 40px 0px !important;
+    /* padding:px 0px; */
+}
+.all-productCatagory-container{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin: auto;
+}
+.all-productCatagory-container img{
+    transition:all 0.3s;
+}
+.all-productCatagory-container img:hover{
+    transform: scale(1.015);
+    cursor: pointer;
+}
+.all-productCatagory-container > div{
+    height: 100%;
+}
+
+.electronics-access-catagory{
+    display: flex;
+    justify-content:space-between;
+}
+.all-productCatagory-container .left-section{
+    width: 39%;
+}
+.all-productCatagory-container .left-section img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.all-productCatagory-container .right-section{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.all-productCatagory-container .right-section > div{
+    width: 100%;
+    height: 49%;
+}
+.only-shoes-catagory img{
+   width: 100%;
+   height: 100%;
+   object-fit:cover;
+}
+.electronics-access-catagory > div{
+     height: 100%;
+     width: 49.2%;
+}
+.electronics-access-catagory .electronics img{
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+}
+.electronics-access-catagory .accessory img{
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+}
+.left-section,
+.only-shoes-catagory,
+.electronics-access-catagory,
+.accessory{
+   position: relative;
+}
+.all-productCatagory-container h2{
+  position: absolute;
+  top: 0;
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  padding: 20px;
+}
+.category-active{
+    color: rgb(7, 74, 150) !important;
+    font-size: 30px;
+}
+.category-header-cantainer{
+    display: flex;
+    flex-direction: row;
+}
+.category-header-tag{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+.category-header-tag p{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 25px;
+  padding: 0px 20px;
+  font-weight: 500;
+  color: rgb(48, 48, 48);
+}
+.category-header-select {
+    padding: 18px 20px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    color:rgb(34, 34, 34);
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.product-catagory-container{
+  
+   width:83%;
+   /* background-color: red; */
+   justify-content:space-between;
+    display: flex;
+    flex-wrap: wrap;
+}
+.product-catagory-wrapper{
+   width: 83%;
+   justify-content: space-between;
+   /* background-color: yellowgreen; */
+   display:flex;
+   margin: auto;
+}
+.price-filter{
+  /* background-color: blue; */
+}
+.catagory-filter{
+ /* background-color: peru; */
+}
+
+.filter-container {
+    width: 15%;
+
+    /* background-color: rgba(255, 192, 203, 0.302); */
+}
+.filter-container > div{
+    padding: 10px 0px 10px 10px;
+    border-top: 1.3px solid rgb(213, 213, 213);
+
+}
+.filter-container .gender-filter{
+   /* background-color: yellow; */
+}
+.filter-container  div span{
+    font-size: 15px;
+    color: rgb(101, 101, 101);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.catagory-filter > h3{
+    padding: 10px 0px;
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+}
+.price-filter > h3{
+    padding: 10px 0px;
+
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+}
+.filter-container > p{
+    padding: 15px 0px;
+    font-size: 18px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight:bold
+}
+.gender-filter > div,
+.catagory-filter > div,
+.price-filter > div {
+   margin: 5px 0px;
+}
+.catagory-filter > div > div {
+    /* background-color: red; */
+    display: flex;
+    
+    padding: 10px 0px 10px 20px;
+    justify-content: center;
+    flex-direction: column;
+}

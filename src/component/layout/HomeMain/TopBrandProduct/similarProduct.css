@@ -1,0 +1,30 @@
+.end-product-card{
+    width: 200px;
+    height: auto;
+    margin-right: 20px;
+    /* background-color: yellow; */
+    position: relative;
+  
+}
+.end-product-card .item-name{
+    font-size:14px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+.end-product-card .item-price{
+    font-size:15px;
+    padding: 5px 0px;
+    font-weight: 500;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+.item-price > span{
+    text-decoration: line-through;
+    padding-inline-start: 7px;
+    color: rgb(125, 125, 125);
+}
+.end-product-card  img{
+   width: 200px;
+   height: 200px;
+   object-fit: cover;
+}
